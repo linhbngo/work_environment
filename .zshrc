@@ -93,7 +93,7 @@ done
 
 # setup alias for Drexel server
 alias picottemgmt="ssh lbn28@picottemgmt.urcf.drexel.edu"
-alias picottelogin="ssh lbn28"picottelogin.urcf.drexel.edu"
+alias picottelogin="ssh lbn28@picottelogin.urcf.drexel.edu"
 
 
 
