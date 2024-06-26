@@ -1,3 +1,4 @@
+# This will be turned into a Docker image
 #!/bin/bash
 
 #conda create -n jekyll -c conda-forge python==3.10.2 ruby==3.1.0
