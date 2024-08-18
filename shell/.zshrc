@@ -83,3 +83,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# IP Address: 204.108.163.4-13
+for server in bones coyote roadrunner taz files codingcomp picard worf sulu spock
+do
+  alias "$server"="ssh -p 54322 lngo@wcupa.edu@${server}.cs.wcupa.edu"
+done
+
+alias picottelogin="ssh lbn28@picottelogin.urcf.drexel.edu"
+alias picottemgmt="ssh lbn28@picottemgmt.urcf.drexel.edu"
+
+PYSPARK_DRIVER_PYTHON=jupyter
+PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+export SPARK_HOME=/Users/lngo/spark-3.5.1-bin-hadoop3
+export ANACONDA_HOME=/Users/lngo/anaconda3
+export PATH=/bin:/Users/lngo/anaconda3/bin:/Users/lngo/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin
