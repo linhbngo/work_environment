@@ -22,6 +22,8 @@
         "%DOCFILE%.snm",
         "%DOCFILE%.synctex(busy)",
         "%DOCFILE%.synctex.gz(busy)",
+        "%DOCFILE%.synctex",
+        "%DOCFILE%.synctex.gz",
         "%DOCFILE%.nav",
         "%DOCFILE%.vrb",
         "*/*.nav",
