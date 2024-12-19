@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+microdnf update -y
+microdnf install -y perl
+microdnf clean all
+
 wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 tar xzf install-tl-unx.tar.gz 
 tar xzf install-tl-unx.tar.gz 
