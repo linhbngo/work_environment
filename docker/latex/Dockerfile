@@ -1,6 +1,6 @@
 FROM linhbngo/environments:base-latest as final
 
-COPY ./build
+COPY . /build
 RUN /build/install.sh && rm -rf /build
 
 EXPOSE 8088
