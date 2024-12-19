@@ -4,4 +4,7 @@ This repository contains various Dockefile builds to setup different working env
 - Programming
 - LaTEX writing
 - R
-  
+
+```
+docker-compose build
+```
