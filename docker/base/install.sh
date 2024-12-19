@@ -3,7 +3,7 @@
 microdnf update -y
 microdnf install -y curl nano
     
-curl -fsSL https://code-server.dev/install.sh
+curl -fsSL https://code-server.dev/install.sh | sh
 mkdir -p /root/.config/code-server/
 cp /build/code-server/config.yaml /root/.config/code-server/config.yaml
 mkdir -p /root/.local/share/code-server/User/ 
