@@ -17,3 +17,7 @@ services:
       - ../../:/data
     depends_on:
       - base
+    deploy:
+      resources:
+        limits:
+          cpus: 2
