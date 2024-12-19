@@ -1,7 +1,7 @@
 #!/bin/bash
     
 microdnf update -y
-microdnf install -y curl nano wget
+microdnf install -y curl nano wget tar
     
 curl -fsSL https://code-server.dev/install.sh | sh
 mkdir -p /root/.config/code-server/
