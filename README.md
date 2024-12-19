@@ -12,7 +12,7 @@ docker-compose build
 ## Instructions:
 
 ```bash
-docker compose up -d
+docker compose up -d <service name>
 docker compose down --rmi all
 docker compose down --rmi local
 docker compose build
