@@ -1,4 +1,4 @@
-FROM linhbngo/environments:base-latest as final
+FROM linhbngo/environments:base-latest AS final
 
 COPY . /build
 RUN /build/install.sh && rm -rf /build
