@@ -14,6 +14,7 @@ docker-compose build
 ```bash
 docker compose up -d
 docker compose down --rmi all
+docker compose down --rmi local
 docker compose build
 docker compose push
 ```
