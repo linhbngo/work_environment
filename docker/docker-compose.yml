@@ -15,8 +15,6 @@ services:
       - "18088:8088"
     volumes:
       - ../../:/data
-    depends_on:
-      - base
     deploy:
       resources:
         limits:
