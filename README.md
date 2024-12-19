@@ -1,7 +1,7 @@
-# Shell Setup
+# Work Environments
 
-This repository contains instructions on setting up various software environments in my *nix environments. Depending on the software, it can be separated into Mac and Linux. 
-The list includes:
-
-- Terminal shell
-- nvim
+This repository contains various Dockefile builds to setup different working environments. These includes:
+- Programming
+- LaTEX writing
+- R
+  
