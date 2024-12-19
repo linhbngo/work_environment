@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",,
+    "workbench.colorTheme": "Default Dark Modern",
     "latex-workshop.latex.clean.fileTypes": [
         "%DOCFILE%.aux",
         "%DOCFILE%.bbl",
@@ -30,6 +30,6 @@
         "%DOCFILE%.synctex.gz"
     ],
     "latex-workshop.latex.clean.subfolder.enabled": true,
-    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.autoClean.run": "onSucceeded",
     "latex-workshop.latex.clean.method": "glob"
 }
