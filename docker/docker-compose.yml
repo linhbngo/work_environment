@@ -1,0 +1,16 @@
+services:
+  base:
+    build:
+      context: ./base
+
+  latex:
+    build:
+      context: ./latex
+    expose:
+      - "8088"
+    ports:
+      - "18088:8088"
+    volumes:
+      - ../../:/data
+    depends_on:
+      - base
