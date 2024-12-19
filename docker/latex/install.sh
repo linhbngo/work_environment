@@ -3,7 +3,7 @@ set -e
 
 microdnf update -y
 microdnf install -y epel-release
-microdnf install -y texlive-*
+microdnf install -y texlive-latex
 microdnf clean all
 
 code-server --install-extension james-yu.latex-workshop
