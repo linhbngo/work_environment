@@ -2,11 +2,13 @@ services:
   base:
     build:
       context: ./base
-      tags: linhbngo/environments:base-latest
+      tags: 
+        - "linhbngo/environments:base-latest"
   latex:
     build:
       context: ./latex
-      tags: linhbngo/environments:latex-latest
+      tags: 
+        - "linhbngo/environments:latex-latest"
     expose:
       - "8088"
     ports:
