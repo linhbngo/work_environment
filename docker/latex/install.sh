@@ -10,7 +10,8 @@ tar xzf install-tl-unx.tar.gz
 tar xzf install-tl-unx.tar.gz 
 cd install-tl-*/
 perl ./install-tl --no-interaction
-echo "export PATH=$PATH:/usr/local/texlive/2024/bin/x86_64-linux/" >> /etc/profile
+TARGET_ARCH=$(uname -m)
+echo "export PATH=$PATH:/usr/local/texlive/2024/bin/${TARGET_ARCH}/" >> /etc/profile
    
 code-server --install-extension james-yu.latex-workshop
 
