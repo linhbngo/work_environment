@@ -1,0 +1,8 @@
+- Update the current docker compose yml file with the `rstudio` service for the latest RStudio and clean out the base service. 
+- The `rstudio` service will have
+    - A image buildable through a Dockerfile for latest Rstudio inside the `docker/rstudio` directory path
+    - The service will launch an RStudio server inside the container. There should be no authentication needed. 
+    - The service should run with a user account `student/student` that have passwordless sudo power. 
+    - The service should mount the workspace directory inside the repository into `/workspace` inside the container. 
+    - The service should map the Rstudio server port to the same port on the host machine. 
+- Create a .gitignore file inside workspace to ignore everything except for the local .gitignore file.

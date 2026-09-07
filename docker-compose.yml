@@ -1,0 +1,17 @@
+services:
+  rstudio:
+    build:
+      context: ./docker/rstudio
+      tags:
+        - "linhbngo/environments:rstudio-latest"
+    environment:
+      DISABLE_AUTH: "true"
+      ROOT: "true"
+      DEFAULT_USER: student
+      PASSWORD: student
+    expose:
+      - "8787"
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./workspace:/workspace
